@@ -1,0 +1,94 @@
+body{
+    background-color:  hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    color:white;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size:1.25rem;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+}
+
+p{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 0.7rem;
+    margin:0;
+}
+
+span{
+    font-family: Inter;
+    font-weight: 400;
+    color:hsl(0, 0%, 50%); 
+    font-size:0.75rem;
+    margin-top:1.25rem;
+    margin-bottom: 1.2rem;
+}
+
+
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    padding:2rem 2.3rem;
+    border-radius: .5rem;
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.links a{
+    font-family: Inter;
+    font-weight: 400;
+    background-color:hsl(0, 0%, 20%) ;
+    font-size: .75rem;
+    width:100% ;
+    padding:.5rem .5rem;
+    text-align: center;
+    margin-top: .5rem;
+    border-radius: .35rem;;
+
+}
+
+.links a:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color:black;
+    
+    margin-top: .5rem;
+}
+
+img{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    filter:brightness(0.75);
+}
+
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+     margin-top:0.7rem;
+}
+    
+.attribution a {
+     color:hsl(75, 94%, 57%) ; 
+}
